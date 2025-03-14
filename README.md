@@ -16,3 +16,13 @@ This project aims to explore and manage AWS IAM (Identity and Access Management)
 ## Tasks
 - Task 1: Explore IAM Users, Groups, and Policies
 - Task 2: Use the IAM Sign-in URL
+
+IAM policy examples
+{
+"Version": "2012-10-17",
+"Statement": [{
+"Effect": "Allow",
+"Action": "*",
+"Resource": "*"
+}]
+}
